@@ -1,0 +1,216 @@
+/* Colors */
+:root {
+	--body-collor: #ffffff;
+	--navy-collor: #2e2f42;
+	--ourTeamBack--collor: #f4f4fd;
+	--blue--text--collor: #4d5ae5;
+	--hover--blue--collor: #404bbf;
+	--add-text--collor: #434455;
+	--footer--text--border--collor: #e7e9fc;
+}
+/* Colors */
+
+body {
+	font-family: "Roboto", sans-serif;
+	color: var(--navy-collor);
+	background-color: var(--body-collor);
+}
+.list {
+	list-style: none;
+}
+.link {
+	text-decoration: none;
+}
+
+/* indexHTML */
+
+/* header */
+.header-logo {
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--blue--text--collor);
+}
+.header-span {
+	color: var(--navy-collor);
+}
+
+.header-link {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--navy-collor);
+	text-decoration: none;
+}
+.header-link-active {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--blue--text--collor);
+	text-decoration: none;
+}
+
+.header-link:hover,
+.header-link:focus {
+	color: var(--hover--blue--collor);
+}
+.header-add-link {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--add-text--collor);
+	font-style: normal;
+}
+
+.header-add-link:hover,
+.header-add-link:focus {
+	color: var(--hover--blue--collor);
+}
+/* header */
+
+/* hero */
+.hero {
+	background-color: var(--navy-collor);
+}
+.hero-title {
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 1.1;
+	letter-spacing: 0.02em;
+	color: var(--body-collor);
+}
+.hero-btn {
+	font-family: "Roboto";
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	text-align: left;
+	color: var(--body-collor);
+	background-color: var(--blue--text--collor);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+	background-color: var(--hover--blue--collor);
+}
+/* hero */
+
+/* about */
+.about-title {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--navy-collor);
+}
+.about-text {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--add-text--collor);
+}
+/* about */
+
+/* whatDoing */
+.whatDoing-title {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 1.11;
+	letter-spacing: 0.02em;
+	color: var(--navy-collor);
+}
+/* whatDoing */
+
+/* ourTeam */
+.team {
+	background-color: var(--ourTeamBack--collor);
+}
+.team-title {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 1.11;
+	letter-spacing: 0.02em;
+	color: var(--navy-collor);
+}
+.team-name {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--navy-collor);
+}
+.team-text {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--add-text--collor);
+}
+/* ourTeam */
+
+/* footer */
+.footer {
+	background-color: var(--navy-collor);
+}
+.footer-header-span {
+	color: var(--ourTeamBack--collor);
+}
+.footer-text {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--footer--text--border--collor);
+}
+/* footer */
+
+/* indexHTML */
+
+/* portfolioHTML */
+.portfolio-btn-list {
+}
+.portfolio-btn {
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	text-decoration: none;
+	color: var(--blue--text--collor);
+	background-color: var(--ourTeamBack--collor);
+	border: 1px solid rgba(231, 233, 252, 1);
+	border-radius: 4px;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+	color: var(--body-collor);
+	background-color: var(--hover--blue--collor);
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.portfolio-name {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--navy-collor);
+}
+.portfolio-text {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--add-text--collor);
+}
+/* portfolioHTML */
